@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    color: darkgrey;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: flex;
+    color: darkgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: darkgray;
+}
+
+.footer {
+    background-color: gray;
+    text-align: left;
+    padding: 10px;
+}
+
+body {
+    background-image: url(images/seamless-notebook-paper-texture-free.jpg);
+}
