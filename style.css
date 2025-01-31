@@ -8,7 +8,7 @@
 
 nav {
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -47,6 +47,15 @@ nav a:hover {
 
 .footer {
     background-color: gray;
-    text-align: left;
-    padding: 10px;
+    text-align: center;
+    padding: 0 2rem;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer img {
+    object-fit: cover;
+    float: left;
 }
