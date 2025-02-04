@@ -37,6 +37,18 @@ nav a:hover {
     text-decoration: none;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/seamless-notebook-paper-texture.jpg);
+    background-size: 800px;
+    max-width: 75%;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
 .logo {
     float: right;
     font-size: 1.5rem;
@@ -46,7 +58,7 @@ nav a:hover {
 }
 
 .footer {
-    background-color: gray;
+    background-color: lightgray;
     text-align: center;
     padding: 0 2rem;
     justify-content: space-between;
@@ -55,7 +67,9 @@ nav a:hover {
     align-items: center;
 }
 
-.footer img {
+.footer img{
     object-fit: cover;
     float: left;
+    width: 80px;
+    height: 80px;
 }

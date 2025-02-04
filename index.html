@@ -9,6 +9,17 @@
     </head>
 
     <body style = "background-image: url(images/Seamless-Paper-Texture.png)">
+        <script>
+            let toggle = true;
+            function changeImage() {
+                toggle = !toggle;
+                if (toggle)
+                    document.getElementById("toggleImage").src = "images/220px-Virtual-camera-system.png";
+                else
+                    document.getElementById("toggleImage").src = "images/Otters.jpg";
+            }
+        </script>
+
         <nav>
             <div class="nav-items">
                 <a href="about.html">About</a>
@@ -17,16 +28,18 @@
             </div>
             <div class="logo"><a href="index.html">Sunny's Corner</a></div>
         </nav>
-
+        <div class = "container">
+            <p style="padding: 0px 5px;">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+            </p>
+        </div>
         <div class="footer">
             <div class="footer-text">
                 <span>Insert some random text down here or something.</span>
             </div>
             <span>
-            <img src="images/220px-Virtual-camera-system.png" alt="Teapot" 
-                width="80px" height="80px">
+            <img src="images/220px-Virtual-camera-system.png" id="toggleImage" onclick="changeImage()">
             </span>
         </div>
-
     </body>
 </html>
