@@ -9,11 +9,14 @@
     </head>
 
     <body style = "background-color: transparent;">
+        <script>
+            var parentWindow = window.parent;
+        </script>
         <nav>
             <div class="nav-items">
-                <a href="about.html">About</a>
-                <a href="/">Music</a>
-                <a href="/">blah blah blah</a>
+                <a href="#" onClick="top.window.location.href='about.html'">About</a>
+                <a href="#" onClick="top.window.location.href='index.html'">Music</a>
+                <a href="#" onClick="top.window.location.href='index.html'">blah blah blah</a>
             </div>
             <div class="logo"><a href="index.html">Sunny's Corner</a></div>
         </nav>
