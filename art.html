@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Sunny's Corner</title>
+        <link rel="icon" type="image/jpg" href="images/Solaire-Sun.png">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    </head>
+
+    <body style = "background-image: url(images/Seamless-Paper-Texture.png)">
+
+        <!--Navigation should be on every page-->
+        <iframe src="navigation.html"></iframe> 
+
+        <!--Content of website should be inbetween nav and footer-->
+        <section class="art_container">
+            <div id="toolbar">
+                <h1>Draw</h1>
+                <label for="stroke">Stroke</label>
+                <input id="stroke" name='stroke' type="color">
+                <label for="line_width">Line Width</label>
+                <input id="line_width" name='line_width' type="number" value="5">
+                <button id="clear">Clear</button>
+            </div>
+
+            <div class="drawing_board">
+                <canvas id="drawing_board"></canvas>
+            </div>
+        </section>
+
+        <script src="drawing.js"></script>
+
+        <!--Footer should be on most pages, not necessary, but appreciated :D-->
+        <iframe src="footer.html"></iframe>
+
+    </body>
+</html>
