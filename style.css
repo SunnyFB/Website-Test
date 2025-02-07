@@ -68,6 +68,25 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.link-container {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/seamless-notebook-paper-texture.jpg);
+    background-size: 800px;
+    max-width: 75%;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.link-container a {
+    color:black;
+    position:relative;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .logo {
     float: right;
     font-size: 1.5rem;
@@ -91,4 +110,11 @@ nav a:hover {
     float: left;
     width: 80px;
     height: 80px;
+}
+
+iframe {
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    height: fit-content;
 }

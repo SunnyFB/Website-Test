@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    </head>
+
+    <body style = "background-color: transparent;">
+        <script>
+            var parentWindow = window.parent;
+            let toggle = true;
+            function changeImage() {
+                toggle = !toggle;
+                if (toggle)
+                    document.getElementById("toggleImage").src = "images/OtterSquare.jpg";
+                else
+                    document.getElementById("toggleImage").src = "images/AngryOtter.jpg";
+            }
+        </script>
+
+        <div class="footer">
+            <div class="footer-text">
+                <span>Insert some random text down here or something.</span>
+            </div>
+            <span>
+            <img src="images/OtterSquare.jpg" id="toggleImage" onclick="changeImage()">
+            </span>
+        </div>
+
+
+    </body>
+</html>
